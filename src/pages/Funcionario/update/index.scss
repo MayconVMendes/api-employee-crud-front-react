@@ -1,0 +1,27 @@
+.funcionario.update {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    
+        form {
+            display: grid;
+            gap: 15px;
+            label {
+                display: grid;
+                text-align: left;
+            }
+            input, select {
+                background-color: #d6d6d6;
+                padding: 10px;
+                width: 250px;
+                border-radius: 15px;
+            }
+        }
+    }
